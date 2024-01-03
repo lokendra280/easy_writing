@@ -1,0 +1,28 @@
+name: learning_path_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  photo_view: ^0.14.0
+  provider: ^6.1.1
+  purchases_flutter: ^6.5.0
+  share_plus: ^7.2.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model_answers_json/
+    - assets/Academic/
